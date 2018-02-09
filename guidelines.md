@@ -23,12 +23,16 @@ We will also be assuming that, unless you label things otherwise, these subevent
 
 #### How this combines with AMR
 
-This approach means that there are many events in RED-AMR where the *only* information we need about them is which container they are part of.    Because of this, the primary things we are annotating are "event container" objects, each of which have a box for a single "main event" and a collection of subevents.  
+This approach means that there are many events in RED-AMR where the *only* information we need about them is which container they are part of.    Because of this, the primary things we are annotating are "event container" objects, each of which have a box for a single "main event" and a collection of subevents.  In our annotation tool, Anafora, these will show up as in the following image.  You see a single "event" of a meeting -- which is actually a chain of coreferent event mentions -- and there are subevents under it such as "get-04" , "conduct-01"; this meeting is also marked as being "Hypothetical":
 
 
+![eventcontainer](example1.png)
 
+This will correspond to actual elements within an AMR node.  
 
-## A basic event annotation
+![eventcontainer](example2.png)
+
+## Walking through a basic event annotation
 
 Let's start with a simple example from the Little Prince.  This will be useful for a number of these discussions.  We have one clear, dynamic event here -- "giving up":
 
