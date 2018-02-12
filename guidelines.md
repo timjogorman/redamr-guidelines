@@ -60,7 +60,7 @@ Let's say that you want to mark a temporal relation marking whether one event is
 
 We simply want to relate these two, mark whether there is a causal relation, and label the temporal order and modality of the relation.  We will add one of two relations -- "TemporalOrder" (for non-causal relations, shortcut "t") or "Cause" (for causal relations, shortcut "c"), add one AMR variable for the SOURCE and TARGET role, and select answers for the "Causal", "TLINK" (temporal relation type) and "modality" boxes, as shown below:
 
-![temprel](example3.png)
+![temprel](example4.png)
 
 ## Details
 
